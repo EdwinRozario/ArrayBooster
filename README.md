@@ -1,4 +1,5 @@
-#Arraybooster Gem: Adds a few more features to a Ruby array. Array can be used like a Queue with rpush, lpush, rpop and lpop. A feature substitute is also added, which allows to substitute a element in the array with another. Data can be pushed to an array with priority with ppush.
+#Arraybooster Gem: 
+Adds a few more features to a Ruby array. Array can be used like a Queue with rpush, lpush, rpop and lpop. A feature substitute is also added, which allows to substitute a element in the array with another. Data can be pushed to an array with priority with ppush.
 
 #Installation
 
