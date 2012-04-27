@@ -16,13 +16,15 @@ Adds a few more features to a Ruby array. Array can be used like a Queue with rp
     ['SuperMan', 'CaptainAmerica', 'Thor', 'HawkEye', 'Hulk', 'IronMan', 'WonderWoman']
 
     subject.rpush('AntMan') #Push 'Antman' to the right of the array
-    ['IronMan', 'CaptainAmerica', 'Thor', 'HawkEye', 'Hulk', 'IronMan', 'WonderWoman', 'AntMan']
+    ['SuperMan', 'CaptainAmerica', 'Thor', 'HawkEye', 'Hulk', 'IronMan', 'WonderWoman', 'AntMan']
 
     subject.lpop #Pop from left of the array. arrayname.lpop(n) will pop n elements
+    'SuperMan'
     ['CaptainAmerica', 'Thor', 'HawkEye', 'Hulk', 'IronMan', 'WonderWoman', 'AntMan']
 
     subject.rpop #Pop from right of the array. arrayname.rpop(n) will pop n elements
-    ['CaptainAmerica', 'Thor', 'HawkEye', 'Hulk', 'IronMan', '3WonderWoman']
+    'AntMan'
+    ['CaptainAmerica', 'Thor', 'HawkEye', 'Hulk', 'IronMan', 'WonderWoman']
 
     subject.ppush('Wasp', 2) #Push 'Wasp' with priority 2. So its placed at second position.
     ['CaptainAmerica', 'Wasp', 'Thor', 'HawkEye', 'Hulk', 'IronMan', 'WonderWoman']
