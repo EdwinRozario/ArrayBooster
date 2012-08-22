@@ -31,3 +31,11 @@ Adds a few more features to a Ruby array. Array can be used like a Queue with rp
 
     subject.substitute('WonderWoman', 'BlackWidow') #Replaces 'WonderWoman' with 'BlackWidow' from the arry.
     ['CaptainAmerica', 'Thor', 'HawkEye', 'Hulk', 'IronMan', 'BlackWidow']
+
+    names = ["edwin", "edmond", "eddie", "edward", "amanda", "anand", "calwin"]
+   
+    names.similars("edwardo") #Finds all elements similar to input. All elemets are considered as string while this operation.
+    ["edwin", "edmond", "eddie", "edward"]
+
+    names.similars("melwin")
+    ["edwin", "calwin"]
